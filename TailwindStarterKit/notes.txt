@@ -1,0 +1,50 @@
+URL: https://www.linkedin.com/feed/update/urn:li:activity:7221868884163805184/?updateEntityUrn=urn%3Ali%3Afs_updateV2%3A%28urn%3Ali%3Aactivity%3A7221868884163805184%2CFEED_DETAIL%2CEMPTY%2CDEFAULT%2Cfalse%29
+
+Vanilla CSS 
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+translates to Tailwind as:
+
+<button class="py-2 px-4 bg-blue-500 text-white rounded cursor-pointer text-lg">
+    Click Me
+</button>
+
+
+1. Catagories
+    - Layout
+        margin, padding, width, height, etc
+    - Typography
+        font size, font weight, text alignment, etc.
+    - background & color
+    - Flexbox & Grid
+    - Spacing
+        utility classes for managing spacing between elements using margin and padding 
+    - Border 
+        style and radius 
+
+2. Naming Conventions
+
+    - Abbreviations
+        m - magin 
+        p - padding
+        text - for text-related properties
+        bg = background
+    - Modifiers
+        sm - small
+        lg - large
+        2xl - double XL
+        hover - for styles on hover
+    - Property
+        m-2 : margin-2
+        py-4 : padding-y-4
+        text-center : centered-aligned text
